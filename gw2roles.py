@@ -65,8 +65,7 @@ def obtener_composicion(disponibles):
         elif p.role == "DPS" and len(composicion["DPS"]) < 6:
             composicion["DPS"].append(p)
     seleccionados = [p for p in [composicion['Tanke'], composicion['Healer']] + composicion['BoonDPS'] + composicion['DPS'] if p]
-    restantes = [p for p in disponibles if p not in seleccionados]
-    return composicion, restantes
+    return composicion
 
 # --- COMPROBAR CANAL ---
 def canal_valido(ctx):
@@ -91,12 +90,12 @@ async def asignar(ctx, wing: str, *, boss: str):
         await ctx.send(f"❌ Boss '{boss}' no encontrado en {wing}.")
         return
     disponibles = roster[:]
-    composicion, restantes = obtener_composicion(disponibles)
+    composicion = obtener_composicion(disponibles)
     resultado = f"**{boss} ({wing})**\n"
     resultado += f"**Tank:** {composicion['Tanke'].name if composicion['Tanke'] else 'N/A'}\n"
     resultado += f"**Healer:** {composicion['Healer'].name if composicion['Healer'] else 'N/A'}\n"
     resultado += f"**BoonDPS:** {', '.join(p.name for p in composicion['BoonDPS']) or 'N/A'}\n"
-    resultado += asignar_mecanicas(wings[wing][boss], restantes)
+    resultado += asignar_mecanicas(wings[wing][boss], disponibles)
     await enviar_mensaje_largo(ctx, resultado)
 
 @bot.command()
@@ -107,14 +106,14 @@ async def asignarWing(ctx, wing: str):
         await ctx.send(f"❌ Wing '{wing}' no existe.")
         return
     disponibles = roster[:]
-    composicion, restantes = obtener_composicion(disponibles)
+    composicion = obtener_composicion(disponibles)
     mensaje = f"**Asignaciones para {wing}:**\n"
     mensaje += f"**Tank:** {composicion['Tanke'].name if composicion['Tanke'] else 'N/A'}\n"
     mensaje += f"**Healer:** {composicion['Healer'].name if composicion['Healer'] else 'N/A'}\n"
     mensaje += f"**BoonDPS:** {', '.join(p.name for p in composicion['BoonDPS']) or 'N/A'}\n"
     for boss, mecanicas in wings[wing].items():
         mensaje += f"\n__{boss}__\n"
-        mensaje += asignar_mecanicas(mecanicas, restantes)
+        mensaje += asignar_mecanicas(mecanicas, disponibles)
         mensaje += "\n"
     await enviar_mensaje_largo(ctx, mensaje)
 
@@ -123,17 +122,17 @@ async def asignarTodo(ctx):
     if not canal_valido(ctx): return
     for wing, bosses in wings.items():
         disponibles = roster[:]
-        composicion, restantes = obtener_composicion(disponibles)
+        composicion = obtener_composicion(disponibles)
         mensaje = f"**=== {wing} ===**\n"
         mensaje += f"**Tank:** {composicion['Tanke'].name if composicion['Tanke'] else 'N/A'}\n"
         mensaje += f"**Healer:** {composicion['Healer'].name if composicion['Healer'] else 'N/A'}\n"
         mensaje += f"**BoonDPS:** {', '.join(p.name for p in composicion['BoonDPS']) or 'N/A'}\n"
         for boss, mecanicas in bosses.items():
             mensaje += f"\n__{boss}__\n"
-            mensaje += asignar_mecanicas(mecanicas, restantes)
+            mensaje += asignar_mecanicas(mecanicas, disponibles)
             mensaje += "\n"
         await enviar_mensaje_largo(ctx, mensaje)
 
 
 # --- EJECUTAR BOT ---
-bot.run('CODIGO BOT')
+bot.run("CODIGITO")
