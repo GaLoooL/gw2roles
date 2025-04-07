@@ -1,0 +1,475 @@
+{
+    "Wing 1": {
+        "Vale Guardian": [
+            {
+                "name": "Pusher",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Sabeta": [
+            {
+                "name": "Kiter",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Cannon 3",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Cannon 2-4",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    "Wing 2": {
+        "Slothasor": [
+            {
+                "name": "Mush 1",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Mush 2",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Mush 3",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Mush 4",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Trio": [
+            {
+                "name": "Mortar",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Mathias": [
+            {
+                "name": "Reflect",
+                "roles": [
+                    "Healer",
+                    "BoonDPS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    "Wing 3": {
+        "Glena": [
+            {
+                "name": "Tower Healer",
+                "roles": [
+                    "Healer",
+                    "Tanke"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Tower DPS",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Glena",
+                "roles": [
+                    "Healer",
+                    "Tanke"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Huarguis",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "KC": [
+            {
+                "name": "Pusher",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "TC": [
+            {
+                "name": "Jump",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Triple",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Portal",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    "Wing 4": {
+        "Mursaat": [
+            {
+                "name": "Claim",
+                "roles": [
+                    "Tanke"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Dispel",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Bubble",
+                "roles": [
+                    "BoonDPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Deimos": [
+            {
+                "name": "HK",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    "Wing 5": {
+        "Desmina": [
+            {
+                "name": "TankHealer",
+                "roles": [
+                    "Tanke"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Pusher",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Tank DPS",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Epi",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "River": [
+            {
+                "name": "HealerGroup",
+                "roles": [
+                    "Tanke"
+                ],
+                "count": 1
+            },
+            {
+                "name": "HealerDesmina",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "SuperSpeed",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Statua (king)": [
+            {
+                "name": "OverHeal",
+                "roles": [
+                    "BoonDPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Statua (Mouth)": [
+            {
+                "name": "Bolitas",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 5
+            },
+            {
+                "name": "Sacrifisio",
+                "roles": [
+                    "Tanke",
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Statua (Eyes)": [
+            {
+                "name": "Portal",
+                "roles": [
+                    "BoonDPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Drop",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Blow",
+                "roles": [
+                    "Tanke"
+                ],
+                "count": 1
+            }
+        ],
+        "Dhuum": [
+            {
+                "name": "G1",
+                "roles": [
+                    "BoonDPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "G2/Kiter",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "G2 BU",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "G3",
+                "roles": [
+                    "Tanke"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    "Wing 6": {
+        "CA": [
+            {
+                "name": "Shield",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Sword",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Qadim": [
+            {
+                "name": "Portal",
+                "roles": [
+                    "BoonDPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Kiter",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Tank2",
+                "roles": [
+                    "BoonDPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Dungeon",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "LastDungeon",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    "Wing 7": {
+        "Adina": [
+            {
+                "name": "Reflect1",
+                "roles": [
+                    "Tanke"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Reflect2",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Pilar",
+                "roles": [
+                    "Healer",
+                    "BoonDPS",
+                    "DPS"
+                ],
+                "count": 5
+            }
+        ],
+        "Sabir": [
+            {
+                "name": "Reflect1",
+                "roles": [
+                    "Tanke"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Reflect2",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            },
+            {
+                "name": "Rebound",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 2
+            },
+            {
+                "name": "Gorditos",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 1
+            }
+        ],
+        "Qadim2": [
+            {
+                "name": "Pylon",
+                "roles": [
+                    "DPS"
+                ],
+                "count": 3
+            },
+            {
+                "name": "CC",
+                "roles": [
+                    "Healer"
+                ],
+                "count": 1
+            }
+        ]
+    }
+}
