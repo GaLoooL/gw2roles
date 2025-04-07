@@ -12,6 +12,8 @@ Por el momento esos y activar "Message Content Intent" en BOT.
 
 Y darle permisos en el canal mecanicas pq solo tira ahí. 
 
+Ponerle tmb el codigo del bot al final del archivo .py
+
 
 PYTHON 3.12 <
 
