@@ -11,3 +11,10 @@ Hay que crear un bot con permisos:
 Por el momento esos y activar "Message Content Intent" en BOT.
 
 Y darle permisos en el canal mecanicas pq solo tira ahí. 
+
+
+PYTHON 3.12 <
+
+Discord.py => pip install discord.py
+
+Init app => python gw2roles.py
